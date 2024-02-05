@@ -11,8 +11,7 @@
   ],
   "scripts": {
     "dev-docs": "cd docs && pnpm run dev",
-    "prepare": "husky",
-    "format": "prettier --write ."
+    "prepare": "husky"
   },
   "keywords": [
     "kit",
@@ -23,6 +22,7 @@
   "author": "lab",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "8.56.0",
     "husky": "9.0.10",
     "lint-staged": "15.2.1",
     "prettier": "3.2.5"
