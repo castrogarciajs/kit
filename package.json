@@ -1,0 +1,29 @@
+{
+  "name": "material-kit",
+  "version": "0.1.0",
+  "description": "Material design using tailwind css designed for your favorite UI library1",
+  "main": "index.js",
+  "repository": {
+    "url": "git+https://github.com/labs-ong/material-kit"
+  },
+  "contributors": [
+    "Team Lab"
+  ],
+  "scripts": {
+    "dev-docs": "cd docs && pnpm run dev",
+    "prepare": "husky",
+    "format": "prettier --write --cache"
+  },
+  "keywords": [
+    "kit",
+    "material",
+    "ui",
+    "icon"
+  ],
+  "author": "Sebastian Garcia",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "9.0.10",
+    "prettier": "3.2.5"
+  }
+}
