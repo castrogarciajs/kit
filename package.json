@@ -20,7 +20,7 @@
     "ui",
     "icon"
   ],
-  "author": "Sebastian Garcia",
+  "author": "lab",
   "license": "MIT",
   "devDependencies": {
     "husky": "9.0.10",
