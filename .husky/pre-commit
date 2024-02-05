@@ -1,1 +1,1 @@
-pnpm run fotmat
+pnpm lint-staged
