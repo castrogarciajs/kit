@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "checkJs": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "esModuleInterop": true
   },
   "include": ["src/**/*"]
 }
