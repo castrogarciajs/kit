@@ -1,4 +1,12 @@
-/**@type {string} */
-const jsDoc = 'String'
+import { colors } from './themes'
 
-console.log(jsDoc)
+/**@type {import('tailwindcss').Config} */
+const tailwindConfigBase = {
+  theme: {
+    colors,
+  },
+}
+
+export default function tailwindKIT() {
+  console.log(tailwindConfigBase)
+}

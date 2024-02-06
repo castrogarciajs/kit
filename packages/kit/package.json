@@ -1,17 +1,26 @@
 {
   "name": "@material-kit/ui",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Material Kit use TailwindCSS inspired by Material Design.",
+  "main": "./dist/index.js",
   "type": "module",
+  "types": "./types/index.d.ts",
   "scripts": {
-    "build": "tsc --outDir types"
+    "build-types": "tsc --outDir types",
+    "build": "pnpm run build-types && esbuild ./src/index.js --bundle --outdir=dist"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "20.11.16",
-    "typescript": "5.3.3"
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.34",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3",
+    "esbuild": "0.20.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
