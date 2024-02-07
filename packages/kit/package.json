@@ -8,7 +8,7 @@
   "scripts": {
     "build-types": "tsc --outDir types",
     "build-css": "pnpm tailwindcss -i ./styles.css -o ./dist/styles.css -m",
-    "build": "pnpm run build-types && pnpm run build-css && esbuild ./src/index.js --bundle --outdir=dist"
+    "build": "pnpm run build-types && pnpm run build-css"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,6 @@
     "@types/node": "20.11.16",
     "autoprefixer": "10.4.17",
     "deepmerge": "4.3.1",
-    "esbuild": "0.20.0",
     "postcss": "8.4.34",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3"

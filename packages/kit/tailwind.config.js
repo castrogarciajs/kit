@@ -1,4 +1,4 @@
-import withKIT from './src'
+import withKIT from './index'
 
 export default withKIT({
   content: [],

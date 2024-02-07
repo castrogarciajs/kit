@@ -1,4 +1,4 @@
-import { colors } from './themes'
+import { colors, boxShadow } from './themes'
 import merge from 'deepmerge'
 
 /**@type {import('tailwindcss').Config} */
@@ -6,6 +6,7 @@ const tailwindConfigBase = {
   content: [],
   theme: {
     colors,
+    boxShadow,
   },
   plugins: [],
 }
