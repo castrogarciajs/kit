@@ -5,15 +5,23 @@
   "main": "./dist/index.js",
   "type": "module",
   "types": "./types/index.d.ts",
+  "files": [
+    "dist",
+    "!*.test.*",
+    "types",
+    "*.d.ts",
+    "README.md"
+  ],
   "scripts": {
-    "build-types": "tsc --outDir types",
     "build-css": "pnpm tailwindcss -i ./styles.css -o ./dist/styles.css -m",
-    "build": "pnpm run build-types && pnpm run build-css"
+    "build": "swc ./index.js -o dist/index.js && pnpm run build-css"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@swc/cli": "0.3.9",
+    "@swc/core": "1.4.0",
     "@types/node": "20.11.16",
     "autoprefixer": "10.4.17",
     "deepmerge": "4.3.1",
