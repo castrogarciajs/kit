@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "build-css": "pnpm tailwindcss -i ./styles.css -o ./dist/styles.css -m",
-    "build": "swc ./index.js -o dist/index.js && pnpm run build-css"
+    "copy": "cp -r ./themes ./dist && cp package.json ./dist && cp ./README.md ./dist",
+    "build": "swc ./index.js -o dist/index.js && pnpm run build-css && pnpm run copy"
   },
   "keywords": [],
   "author": "",
