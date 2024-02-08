@@ -1,25 +1,22 @@
 {
-  "name": "@kit-ui/material",
+  "name": "@kit-desing/material",
   "version": "1.0.0",
   "description": "Material Kit use TailwindCSS inspired by Material Design.",
   "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "type": "module",
   "types": "./types/index.d.ts",
-  "files": [
-    "dist",
-    "!*.test.*",
-    "types",
-    "*.d.ts",
-    "README.md"
-  ],
   "scripts": {
     "build-css": "pnpm tailwindcss -i ./styles.css -o ./dist/styles.css -m",
     "copy": "cp -r ./themes ./dist && cp package.json ./dist && cp ./README.md ./dist",
-    "build": "swc ./index.js -o dist/index.js && pnpm run build-css && pnpm run copy"
+    "build": "tsup ./index.js --format cjs,esm --dts && pnpm run build-css && pnpm run copy"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "3.4.1"
+  },
   "devDependencies": {
     "@swc/cli": "0.3.9",
     "@swc/core": "1.4.0",
@@ -28,6 +25,7 @@
     "deepmerge": "4.3.1",
     "postcss": "8.4.34",
     "tailwindcss": "3.4.1",
+    "tsup": "8.0.1",
     "typescript": "5.3.3"
   },
   "publishConfig": {
