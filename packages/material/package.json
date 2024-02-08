@@ -1,7 +1,7 @@
 {
-  "name": "@kit-desing/material",
+  "name": "@castrogarciajs/material",
   "version": "1.0.0",
-  "description": "Material Kit use TailwindCSS inspired by Material Design.",
+  "description": "use TailwindCSS inspired by Material Design.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
