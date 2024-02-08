@@ -13,7 +13,7 @@
     "@astrojs/check": "0.4.1",
     "@astrojs/starlight": "0.17.2",
     "@astrojs/tailwind": "^5.1.0",
-    "@material-kit/ui": "*",
+    "@kit-ui/material": "*",
     "astro": "4.2.1",
     "sharp": "0.32.5",
     "tailwindcss": "^3.4.1",

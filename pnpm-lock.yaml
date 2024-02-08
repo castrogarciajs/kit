@@ -40,9 +40,9 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.0
         version: 5.1.0(astro@4.2.1)(tailwindcss@3.4.1)
-      '@material-kit/ui':
+      '@kit-ui/material':
         specifier: '*'
-        version: link:../packages/ui
+        version: link:../packages/material
       astro:
         specifier: 4.2.1
         version: 4.2.1(typescript@5.3.3)
@@ -58,13 +58,7 @@ importers:
 
   packages/fonts: {}
 
-  packages/icons:
-    devDependencies:
-      typescript:
-        specifier: 5.3.3
-        version: 5.3.3
-
-  packages/ui:
+  packages/material:
     devDependencies:
       '@swc/cli':
         specifier: 0.3.9
@@ -87,6 +81,12 @@ importers:
       tailwindcss:
         specifier: 3.4.1
         version: 3.4.1
+      typescript:
+        specifier: 5.3.3
+        version: 5.3.3
+
+  packages/material-icons:
+    devDependencies:
       typescript:
         specifier: 5.3.3
         version: 5.3.3

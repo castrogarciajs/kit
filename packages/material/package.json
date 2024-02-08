@@ -1,5 +1,5 @@
 {
-  "name": "@material-kit/ui",
+  "name": "@kit-ui/material",
   "version": "1.0.0",
   "description": "Material Kit use TailwindCSS inspired by Material Design.",
   "main": "./dist/index.js",

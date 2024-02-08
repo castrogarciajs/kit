@@ -1,5 +1,5 @@
 {
-  "name": "material-kit",
+  "name": "@kit-ui/monorepo",
   "version": "0.1.0",
   "description": "Material design using tailwind css designed for your favorite UI library1",
   "main": "index.js",
