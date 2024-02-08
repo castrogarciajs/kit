@@ -4,12 +4,11 @@
   "description": "Material Kit use TailwindCSS inspired by Material Design.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
-  "types": "./types/index.d.ts",
   "scripts": {
     "build-css": "pnpm tailwindcss -i ./styles.css -o ./dist/styles.css -m",
-    "copy": "cp -r ./themes ./dist && cp package.json ./dist && cp ./README.md ./dist",
-    "build": "tsup ./index.js --format cjs,esm --dts && pnpm run build-css && pnpm run copy"
+    "build": "tsup ./src --dts --format esm,cjs && pnpm run build-css"
   },
   "keywords": [],
   "author": "",
