@@ -1,3 +1,3 @@
-# material-desing
+# KIT Starter
 
-Material design using tailwind css designed for your favorite UI library
+KIT library with multiple design System
