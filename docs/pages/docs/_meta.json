@@ -1,0 +1,22 @@
+{
+  "index": "Introduction",
+  "guide": "",
+  "-- Themes": {
+    "type": "separator",
+    "title": "Integration Guide"
+  },
+  "Next.js": "",
+  "Nuxt": "",
+  "Astro": "",
+  "-- More": {
+    "type": "separator",
+    "title": "Customization"
+  },
+  "Colors": "",
+  "-- Components": {
+    "type": "separator",
+    "title": "Components"
+  },
+  "button": "",
+  "card": ""
+}
