@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
-import { colors, boxShadow } from './themes'
+import { colors } from './themes/colors'
+import { boxShadow } from './themes/shadows'
 import merge from 'deepmerge'
 
 const tailwindConfigBase: Config = {
