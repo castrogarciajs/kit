@@ -45,7 +45,7 @@ importers:
   docs:
     dependencies:
       '@castrogarciajs/material':
-        specifier: 2.1.1
+        specifier: '*'
         version: link:../packages/material
       next:
         specifier: 14.1.0
