@@ -1,22 +1,22 @@
 {
   "index": "Introduction",
   "guide": "",
-  "-- Themes": {
+  "-- Integration Guide": {
     "type": "separator",
     "title": "Integration Guide"
   },
-  "Next.js": "",
-  "Nuxt": "",
-  "Astro": "",
-  "-- More": {
+  "integrations": {
+    "title": "Technologies"
+  },
+  "-- Themes": {
+    "type": "separator",
+    "title": "Themes"
+  },
+  "customization": {
     "type": "separator",
     "title": "Customization"
   },
-  "Colors": "",
-  "-- Components": {
-    "type": "separator",
+  "components": {
     "title": "Components"
-  },
-  "button": "",
-  "card": ""
+  }
 }
