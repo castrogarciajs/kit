@@ -44,7 +44,7 @@ importers:
 
   docs:
     dependencies:
-      '@castrogarciajs/material':
+      '@castrogarciajs/material-design':
         specifier: '*'
         version: link:../packages/material
       next:
@@ -82,8 +82,6 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
 
-  packages/fonts: {}
-
   packages/material:
     dependencies:
       deepmerge:
@@ -109,11 +107,7 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
 
-  packages/material-icons:
-    devDependencies:
-      typescript:
-        specifier: 5.3.3
-        version: 5.3.3
+  packages/vercel: {}
 
 packages:
   /@aashutoshrathi/word-wrap@1.2.6:
