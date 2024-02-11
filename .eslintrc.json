@@ -6,5 +6,5 @@
     "sourceType": "module",
     "ecmaVersion": 2020
   },
-  "ignorePatterns": ["docs", "dist", "*.d.ts"]
+  "ignorePatterns": ["dist", "*.d.ts"]
 }
