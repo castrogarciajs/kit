@@ -1,5 +1,5 @@
 {
-  "name": "@castrogarciajs/material-design",
+  "name": "@diverse-ui/material-design",
   "version": "0.1.1",
   "description": "use TailwindCSS inspired by Material Design.",
   "main": "./dist/index.js",
