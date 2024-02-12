@@ -1,17 +1,21 @@
-import type { Config } from 'tailwindcss'
+import merge from 'deepmerge'
 import { colors } from './themes/colors'
 import { boxShadow } from './themes/shadows'
-import merge from 'deepmerge'
+import { screens } from './themes/screens'
+import { fontFamily } from './themes/font-family'
+import type { Config } from 'tailwindcss'
 
 const tailwindConfigBase: Config = {
   content: [],
   theme: {
     colors,
     boxShadow,
+    screens,
+    fontFamily,
   },
   plugins: [],
 }
 
-export default function withKIT(tailwindConfig: Config) {
+export default (tailwindConfig: Config) => {
   return merge(tailwindConfigBase, { ...tailwindConfig })
 }
