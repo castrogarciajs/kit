@@ -4,7 +4,7 @@ export default {
   printWidth: 80,
   semi: false,
   trailingComma: 'all',
-  plugins: ['prettier-plugin-astro'],
+  plugins: [],
   overrides: [
     {
       files: '*.json',

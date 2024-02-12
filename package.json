@@ -14,7 +14,8 @@
     "prepare": "husky",
     "build": "pnpm -r --filter=./packages/* build",
     "deploy": "pnpm run build && changeset publish",
-    "fmt-check": "prettier --check"
+    "fmt-check": "prettier --check",
+    "test-dev": "pnpm -r --filter=./examples/* dev"
   },
   "keywords": [
     "ui"
@@ -29,7 +30,6 @@
     "husky": "9.0.10",
     "lint-staged": "15.2.1",
     "prettier": "3.2.5",
-    "prettier-plugin-astro": "0.13.0",
     "typescript": "5.3.3"
   },
   "bugs": {

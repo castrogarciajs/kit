@@ -28,9 +28,6 @@ importers:
       prettier:
         specifier: 3.2.5
         version: 3.2.5
-      prettier-plugin-astro:
-        specifier: 0.13.0
-        version: 0.13.0
       typescript:
         specifier: 5.3.3
         version: 5.3.3
@@ -172,13 +169,6 @@ packages:
         integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==,
       }
     engines: { node: '>=10' }
-    dev: true
-
-  /@astrojs/compiler@1.8.2:
-    resolution:
-      {
-        integrity: sha512-o/ObKgtMzl8SlpIdzaxFnt7SATKPxu4oIP/1NL+HDJRzxfJcAkOTAb/ZKMRyULbz4q+1t2/DAebs2Z1QairkZw==,
-      }
     dev: true
 
   /@babel/code-frame@7.23.5:
@@ -5489,18 +5479,6 @@ packages:
     engines: { node: '>= 0.8.0' }
     dev: true
 
-  /prettier-plugin-astro@0.13.0:
-    resolution:
-      {
-        integrity: sha512-5HrJNnPmZqTUNoA97zn4gNQv9BgVhv+et03314WpQ9H9N8m2L9OSV798olwmG2YLXPl1iSstlJCR1zB3x5xG4g==,
-      }
-    engines: { node: ^14.15.0 || >=16.0.0 }
-    dependencies:
-      '@astrojs/compiler': 1.8.2
-      prettier: 3.2.5
-      sass-formatter: 0.7.9
-    dev: true
-
   /prettier@2.8.8:
     resolution:
       {
@@ -5826,13 +5804,6 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /s.color@0.0.15:
-    resolution:
-      {
-        integrity: sha512-AUNrbEUHeKY8XsYr/DYpl+qk5+aM+DChopnWOPEzn8YKzOhv4l2zH6LzZms3tOZP3wwdOyc0RmTciyi46HLIuA==,
-      }
-    dev: true
-
   /safe-array-concat@1.1.0:
     resolution:
       {
@@ -5863,15 +5834,6 @@ packages:
       {
         integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==,
       }
-    dev: true
-
-  /sass-formatter@0.7.9:
-    resolution:
-      {
-        integrity: sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==,
-      }
-    dependencies:
-      suf-log: 2.5.3
     dev: true
 
   /scheduler@0.23.0:
@@ -6331,15 +6293,6 @@ packages:
       mz: 2.7.0
       pirates: 4.0.6
       ts-interface-checker: 0.1.13
-    dev: true
-
-  /suf-log@2.5.3:
-    resolution:
-      {
-        integrity: sha512-KvC8OPjzdNOe+xQ4XWJV2whQA0aM1kGVczMQ8+dStAO6KfEB140JEVQ9dE76ONZ0/Ylf67ni4tILPJB41U0eow==,
-      }
-    dependencies:
-      s.color: 0.0.15
     dev: true
 
   /supports-color@5.5.0:
