@@ -92,10 +92,11 @@ function createRipple(event: MouseEvent, color: string): void {
   setTimeout(() => circle.remove(), 500)
 }
 
-// eslint-disable-next-line no-extra-semi
-;(function setRipple() {
+function setRipple() {
   const lightRipple = document.querySelectorAll('[data-ripple-light="true"]')
   const darkRipple = document.querySelectorAll('[data-ripple-dark="true"]')
+  console.log('Ripple created...Light', lightRipple)
+  console.log('Ripple created...Dark', darkRipple)
 
   if (lightRipple) {
     lightRipple.forEach((element) => {
@@ -112,4 +113,6 @@ function createRipple(event: MouseEvent, color: string): void {
       })
     })
   }
-})()
+}
+
+setRipple()
