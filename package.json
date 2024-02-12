@@ -1,26 +1,23 @@
 {
   "name": "@castrogarciajs/monorepo",
   "version": "0.1.0",
-  "description": "Material design using tailwind css designed for your favorite UI library1",
+  "description": "Diverse use TailwindCSS, choose the JavaScript library you want and your favorite desing system inspired by Material Tailwind",
   "main": "index.js",
   "repository": {
-    "url": "git+https://github.com/labs-ong/material-kit.git"
+    "type": "git",
+    "url": "git+https://github.com/labs-ong/diverse-ui.git"
   },
   "contributors": [
     "Team Lab"
   ],
   "scripts": {
-    "dev-docs": "cd docs && pnpm run dev",
     "prepare": "husky",
     "build": "pnpm -r --filter=./packages/* build",
     "deploy": "pnpm run build && changeset publish",
     "fmt-check": "prettier --check"
   },
   "keywords": [
-    "kit",
-    "material-desingin",
-    "ui",
-    "icon"
+    "ui"
   ],
   "author": "lab",
   "license": "MIT",
@@ -36,14 +33,7 @@
     "typescript": "5.3.3"
   },
   "bugs": {
-    "url": "https://github.com/labs-ong/material-kit/issues"
+    "url": "https://github.com/labs-ong/diverse-ui/issues"
   },
-  "homepage": "https://github.com/labs-ong/material-kit#readme",
-  "directories": {
-    "doc": "docs"
-  },
-  "dependencies": {
-    "eslint-scope": "^7.2.2",
-    "eslint-visitor-keys": "^3.4.3"
-  }
+  "homepage": "https://github.com/labs-ong/diverse-ui#readme"
 }
